@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F4BA5A802CEBF88300E73BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BA5A7A2CEBF88300E73BAC /* Preview Assets.xcassets */; };
+		F4BA5A812CEBF88300E73BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BA5A7C2CEBF88300E73BAC /* Assets.xcassets */; };
+		F4BA5A822CEBF88300E73BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BA5A7D2CEBF88300E73BAC /* ContentView.swift */; };
+		F4BA5A832CEBF88300E73BAC /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BA5A7E2CEBF88300E73BAC /* TradingCardsApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F4BA5A692CEBDF6000E73BAC /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BA5A7A2CEBF88300E73BAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4BA5A7C2CEBF88300E73BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4BA5A7D2CEBF88300E73BAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4BA5A7E2CEBF88300E73BAC /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F4BA5A6B2CEBDF6000E73BAC /* TradingCards */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TradingCards;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F4BA5A662CEBDF6000E73BAC /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		F4BA5A602CEBDF6000E73BAC = {
 			isa = PBXGroup;
 			children = (
-				F4BA5A6B2CEBDF6000E73BAC /* TradingCards */,
+				F4BA5A7F2CEBF88300E73BAC /* TradingCards */,
 				F4BA5A6A2CEBDF6000E73BAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,33 @@
 				F4BA5A692CEBDF6000E73BAC /* TradingCards.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F4BA5A7B2CEBF88300E73BAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4BA5A7A2CEBF88300E73BAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4BA5A7F2CEBF88300E73BAC /* TradingCards */ = {
+			isa = PBXGroup;
+			children = (
+				F4BA5A7E2CEBF88300E73BAC /* TradingCardsApp.swift */,
+				F4BA5A862CEBF9D900E73BAC /* Views */,
+				F4BA5A7B2CEBF88300E73BAC /* Preview Content */,
+			);
+			path = TradingCards;
+			sourceTree = "<group>";
+		};
+		F4BA5A862CEBF9D900E73BAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4BA5A7D2CEBF88300E73BAC /* ContentView.swift */,
+				F4BA5A7C2CEBF88300E73BAC /* Assets.xcassets */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +89,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F4BA5A6B2CEBDF6000E73BAC /* TradingCards */,
 			);
 			name = TradingCards;
 			packageProductDependencies = (
@@ -109,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BA5A802CEBF88300E73BAC /* Preview Assets.xcassets in Resources */,
+				F4BA5A812CEBF88300E73BAC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BA5A822CEBF88300E73BAC /* ContentView.swift in Sources */,
+				F4BA5A832CEBF88300E73BAC /* TradingCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
